@@ -1,11 +1,25 @@
 # Ionic2-auto-complete
 
+## Disclaimer ##
+Due to a very little free time, I am not fully available for mainting and supporting this project, so contributions are very welcome!!!
+
+
+## About ##
 This is a component based on Ionic's search-bar component, with the addition of auto-complete abillity.
 This component is super simple and light-weight. Just provide the data, and let the fun begin.
 
 This is a **free software** please feel free to contribute! :)
 
 ![](example.gif)
+
+### Angular 5.0 Support
+
+Since Angular 5.0 was out, a several issues occured. 
+Thanks to @CoreyCole, most of them are gone now :)
+
+If you encounter another issues regrading Angular 5, pleae file an issue!
+
+For more info: https://github.com/kadoshms/ionic2-autocomplete/issues/128
 
 ### Installation
 ```
@@ -274,6 +288,7 @@ ion-auto-complete {
 }
 ```
 
+<!--
 ### How to concatenate several fields as label ? ###
 
 
@@ -308,6 +323,7 @@ export class CompleteTestService implements AutoCompleteService {
   }
 }
 ```
+-->
 
 
 ### Custom Templates (for versions 1.5.0 and above) ###
@@ -387,12 +403,12 @@ In order to implement a custom Item component, you need to follow these steps:
 
 ## Events ##
 
-**itemSelected($event)** - fired when item is selected (clicked)
-**itemsShown($event)** - fired when items are shown
-**itemsHidden($event)** - fired when items are hidden
-**ionAutoInput($event)** - fired when user inputs
-**autoFocus($event)** - fired when the input is focused
-**autoBlur($event)** - fired when the input is blured
+**itemSelected($event)** - fired when item is selected (clicked)  
+**itemsShown($event)** - fired when items are shown  
+**itemsHidden($event)** - fired when items are hidden  
+**ionAutoInput($event)** - fired when user inputs  
+**autoFocus($event)** - fired when the input is focused  
+**autoBlur($event)** - fired when the input is blured  
 
 ## Searchbar options ##
 
